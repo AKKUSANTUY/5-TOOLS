@@ -76,5 +76,5 @@ pkg install cowsay
 pkg install bash
 sleep5
 INSTALL SUCCES BITCH
-sh MrDseC.sh
+sh SCSTOOLS.sh
 fi
