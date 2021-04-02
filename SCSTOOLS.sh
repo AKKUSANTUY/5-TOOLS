@@ -22,7 +22,8 @@ echo $w"["$r"1"$w"] "$w"Spam Call"
 echo $w"["$r"2"$w"] "$w"Spam Sms"
 echo $w"["$r"3"$w"] "$w"Newbie Tools"
 echo $w"["$r"4"$w"] "$w"TuanBadut"
-echo $w"["$r"5"$w"] "$w"Install Bahan"
+echo $w"["$r"5"$w"] "$w"SCS Spam"
+echo $w"["$r"404"$w"] "$w"Install Bahan Cuk"
 echo $cy
 read -p "Root-SCS▄︻̷̿┻̿═━一>>> " pil;
 #batas
@@ -56,6 +57,15 @@ sh TUANB4DUT.sh
 fi
 #batas
 if [ $pil = 5 ]
+then
+apt update && apt upgrade -y
+pkg update pkg install python2 -y
+git clone https://github.com/AKKUSANTUY/SPAMcuk
+cd SPAMcuk
+pip2 install requests
+python2 main.py
+#batas
+if [ $pil = 404 ]
 then
 apt update && apt upgrade
 pkg install git
